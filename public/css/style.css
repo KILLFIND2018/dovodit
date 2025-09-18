@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(70deg,white, #495057);
+    background-repeat: no-repeat;
+}
+
+.header-logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-logo>img {
+    width: 60px;
+    height: auto;
+    border-radius: 3px;
+}
+
+.sub-header {
+    float: right;
+}
+
+.muted {
+    font-style: italic;
+}
+
+
+.footer-inner {
+    display: flex;
+    justify-content: space-between;
+}
